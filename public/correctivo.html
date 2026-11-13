@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Diagnóstico de síntomas y soluciones de mantenimiento correctivo en computadoras."
+    />
+    <meta name="author" content="Eliannys López" />
+    <meta name="theme-color" content="#111111" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_VE" />
+    <meta property="og:title" content="Mantenimiento correctivo | Manual de Mantenimiento" />
+    <meta
+      property="og:description"
+      content="Diagnóstico de síntomas y soluciones de mantenimiento correctivo en computadoras."
+    />
+    <title>Mantenimiento correctivo | Manual de Mantenimiento</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <!-- Encabezado y navegación -->
+    <header>
+      <div class="wrap">
+        <a class="logo" href="index.html">
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 64 64"
+            fill="none"
+            stroke="#fff"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path
+              d="M44 10a12 12 0 0 0-11 16L12 47a5 5 0 0 0 7 7l21-21a12 12 0 0 0 16-11l-8 7-7-2-2-7z"
+              fill="#f97316"
+            />
+          </svg>
+          Manual<span>Tech</span></a
+        >
+        <nav aria-label="Principal">
+          <a href="index.html">Inicio</a>
+          <a href="preventivo.html">Preventivo</a>
+          <a href="correctivo.html" aria-current="page">Correctivo</a>
+          <a href="laptop.html">Laptop</a>
+          <a href="escritorio.html">PC de escritorio</a>
+        </nav>
+      </div>
+    </header>
+    <!-- Contenido principal -->
+    <main id="contenido" class="wrap">
+      <!-- Portada -->
+      <div class="hero">
+        <div>
+          <span class="tag">Correctivo</span>
+          <h1>Mantenimiento <em>correctivo</em></h1>
+          <p class="lead">
+            Identifica el síntoma, encuentra la causa probable y aplica la solución.
+          </p>
+        </div>
+        <div class="illus">
+          <img
+            src="img/fotos/tecnico-pc.jpg"
+            width="924"
+            height="1400"
+            decoding="async"
+            alt="Lupa de diagnóstico"
+          />
+        </div>
+      </div>
+      <!-- Síntomas y soluciones -->
+      <section>
+        <h2>Síntomas y soluciones</h2>
+        <p class="sub">Guía rápida de diagnóstico.</p>
+        <div class="table-box">
+          <table>
+            <thead>
+              <tr>
+                <th>Síntoma</th>
+                <th>Causa probable</th>
+                <th>Solución</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Equipo muy lento</td>
+                <td>Disco lleno, malware o poca RAM</td>
+                <td>Liberar espacio, escanear, ampliar RAM o migrar a SSD</td>
+              </tr>
+              <tr>
+                <td>Sobrecalentamiento</td>
+                <td>Polvo o pasta térmica seca</td>
+                <td>Limpiar ventiladores y renovar pasta térmica</td>
+              </tr>
+              <tr>
+                <td>No enciende</td>
+                <td>Fuente, cargador o batería</td>
+                <td>Probar otro cargador/toma; revisar cables y fuente</td>
+              </tr>
+              <tr>
+                <td>Pantalla azul</td>
+                <td>Controladores o RAM defectuosa</td>
+                <td>Actualizar drivers, probar la RAM, restaurar el sistema</td>
+              </tr>
+              <tr>
+                <td>Sin internet</td>
+                <td>Driver, router o configuración</td>
+                <td>Reiniciar router, actualizar adaptador de red</td>
+              </tr>
+              <tr>
+                <td>Ruidos extraños</td>
+                <td>Ventilador o disco duro dañado</td>
+                <td>Respaldar de inmediato y reemplazar el componente</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- Proceso de diagnóstico -->
+      <section>
+        <h2>Proceso de diagnóstico</h2>
+        <ol class="steps">
+          <li>
+            <b>Documenta el problema</b>
+            <span>Anota cuándo ocurre, mensajes de error y cambios recientes.</span>
+          </li>
+          <li>
+            <b>Descarta lo simple</b>
+            <span>Cables, tomas de corriente, reinicio y periféricos desconectados.</span>
+          </li>
+          <li>
+            <b>Aísla el componente</b>
+            <span>Prueba el hardware por separado y arranca en modo seguro.</span>
+          </li>
+          <li>
+            <b>Repara y verifica</b>
+            <span>Aplica la solución y comprueba el funcionamiento por unos días.</span>
+          </li>
+        </ol>
+        <div class="note">
+          <img class="ni" src="img/icons/warn.svg" alt="" width="22" height="22" />
+          <div>
+            <b>Acude a un técnico</b> si hay olor a quemado, golpes, líquidos derramados o si el
+            disco hace ruidos con datos importantes.
+          </div>
+        </div>
+      </section>
+      <!-- Fallas de software vs. fallas de hardware -->
+      <section class="prose">
+        <h2>Fallas de software vs. fallas de hardware</h2>
+        <p class="sub">Identificar el origen ahorra tiempo y dinero.</p>
+        <p>
+          Las fallas de <b>software</b> suelen aparecer de forma progresiva: lentitud, programas que
+          se cierran, mensajes de error o ventanas emergentes. Normalmente se resuelven con
+          actualizaciones, limpieza de malware, reinstalación de programas o restauración del
+          sistema.
+        </p>
+        <p>
+          Las fallas de <b>hardware</b> tienden a ser más bruscas: el equipo se apaga solo, no da
+          imagen, emite pitidos al arrancar o hace ruidos mecánicos. Requieren revisar componentes
+          físicos como memoria, disco, fuente de poder o ventilación.
+        </p>
+      </section>
+      <!-- ¿Reparar o reemplazar? -->
+      <section class="prose">
+        <h2>¿Reparar o reemplazar?</h2>
+        <p class="sub">Criterios para decidir.</p>
+        <ul class="list">
+          <li>
+            <b>Reparar</b> si el costo es menor al 50 % de un equipo equivalente y el resto de
+            componentes está en buen estado.
+          </li>
+          <li>
+            <b>Mejorar</b> (más RAM o un SSD) cuando el equipo es estable pero lento; suele ser la
+            mejora con mejor relación costo-beneficio.
+          </li>
+          <li>
+            <b>Reemplazar</b> si el equipo no soporta las versiones actuales del sistema o presenta
+            fallas recurrentes en varias piezas.
+          </li>
+        </ul>
+        <div class="note">
+          <img class="ni" src="img/icons/warn.svg" alt="" width="22" height="22" />
+          <div>
+            <b>Regla de oro:</b> antes de cualquier reparación, respalda tus datos. Si el disco está
+            fallando, evita usarlo más de lo necesario.
+          </div>
+        </div>
+      </section>
+      <!-- Herramientas necesarias -->
+      <section>
+        <h2>Herramientas necesarias</h2>
+        <p class="sub">Lo que necesitas para diagnosticar y reparar.</p>
+        <div class="tools-wrap has-photo">
+          <figure class="card tphoto">
+            <img
+              src="img/fotos/destornilladores.jpg"
+              width="1400"
+              height="1050"
+              decoding="async"
+              alt="Juego de destornilladores de precisión"
+              loading="lazy"
+            />
+            <figcaption>
+              <b>Juego de destornilladores de precisión</b>Imprescindible para abrir el equipo de
+              forma segura.
+            </figcaption>
+          </figure>
+          <div class="tools">
+            <div class="tool">
+              <img src="img/icons/ram.svg" alt="" width="40" height="40" />
+              <div>
+                <b>MemTest86</b>
+                <span>Detecta módulos de RAM defectuosos ante pantallas azules.</span>
+              </div>
+            </div>
+            <div class="tool">
+              <img src="img/icons/thermo.svg" alt="" width="40" height="40" />
+              <div>
+                <b>HWMonitor</b>
+                <span>Muestra temperaturas y voltajes para detectar sobrecalentamiento.</span>
+              </div>
+            </div>
+            <div class="tool">
+              <img src="img/icons/storage.svg" alt="" width="40" height="40" />
+              <div>
+                <b>CrystalDiskInfo</b>
+                <span>Revisa si el disco presenta fallas antes de reparar.</span>
+              </div>
+            </div>
+            <div class="tool">
+              <img src="img/icons/glove.svg" alt="" width="40" height="40" />
+              <div>
+                <b>Guantes o pulsera antiestática</b>
+                <span>Protegen los componentes al abrir el equipo.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Pie de página -->
+    <footer>
+      <div class="wrap">
+        <b>Eliannys López</b> · C.I: 31.781.126<br />Asignatura: Sistemas Operativos · Manual de
+        mantenimiento preventivo y correctivo de equipos de cómputo ·
+        <a href="referencias.html">Bibliografía</a>
+      </div>
+    </footer>
+  </body>
+</html>
