@@ -30,30 +30,6 @@ manual-mantenimiento/
 1. Abre la carpeta en VS Code e instala las extensiones recomendadas.
 2. Clic derecho en `public/index.html` → **Open with Live Server**.
 
-## Desplegar en Vercel
-
-1. Sube el repositorio a GitHub (pasos abajo).
-2. En [vercel.com/new](https://vercel.com/new) importa el repositorio.
-3. Deja **Framework Preset** en `Other`; `vercel.json` ya define `public` como directorio de salida.
-4. Pulsa **Deploy**.
-
-También puedes usar la CLI: `npx vercel` (vista previa) y `npx vercel --prod` (producción).
-
-## Subir a GitHub
-
-```bash
-git init
-git add .
-git commit -m "feat: manual de mantenimiento de equipos de cómputo"
-git branch -M main
-git remote add origin https://github.com/<usuario>/<repositorio>.git
-git push -u origin main
-```
-
-## Formato del código
-
-El proyecto usa [Prettier](https://prettier.io/) con la extensión de VS Code (formato al guardar). Para formatear manualmente: `npx prettier --write "public/**/*.{html,css}"`.
-
 ## Licencia
 
 Código bajo licencia MIT (ver `LICENSE`). Las fotografías pertenecen a sus respectivos autores.
